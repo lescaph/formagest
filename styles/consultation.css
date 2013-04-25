@@ -1,0 +1,224 @@
+body {
+  font-size:100%;
+  font-family: sans-serif;
+  background-color: grey;
+}
+
+#conteneur {
+  width: 100%;
+  border: none;
+  text-align:center;
+  margin :0 auto;
+}
+
+#wrap {
+overflow:hidden;
+}
+
+#menu {
+  position: absolute;
+  border: none;
+  text-align:left;
+}
+
+a{
+  text-decoration: none;
+}  
+
+#contenu {
+  position: relative;
+  float: left;
+  margin-left: 170px;	
+}
+
+#formules_cache {
+  font-size: 0.7em;
+  border-style: double;
+  padding: 5px;
+  background-color: grey;
+}
+
+
+.center {
+text-align: center;
+margin : auto;
+}
+
+.fiche{
+    font-family: sans-serif;
+    color: #3399FF;
+}
+
+/* gradient 5 */
+#header {
+	background: #000;
+	padding: 15px 0 11px 30px;
+	margin: 5px 0 10px;
+	color: #fff;
+	text-align: center;
+}
+#header h1 {
+	font: normal 330%/100% "Lucida Grande", Arial, sans-serif;
+	position: relative;
+	margin: 0;
+	letter-spacing: -1px;
+}
+#header h1 span {
+	background: url(../IMG/gradient-shine.png) repeat-x;
+	position: absolute;
+	display: block;
+	width: 100%;
+	height: 64px;
+}
+
+#logo_home {
+    //background-image: url(../IMG/home.png);
+    //background-repeat: no-repeat;
+    //background-position: left top;
+    //padding: 30px;
+    //margin-left: -40em;
+    //text-align: left;
+    position: absolute;  
+}	
+
+#titre_formation {
+	background: #000;
+	padding: 10px 0 10px 30px;
+	margin: 0 0 20px;
+	color: #fff;
+	text-align: center;
+}
+
+#footer {
+    position: relative;
+	background: #000;
+	padding: 10px;
+	margin: 40px 0;
+	top: 20px;
+	color: #fff;
+	text-align: center;
+}
+
+.imgright img {
+    vertical-align:middle;
+}
+
+img {
+    border: none;
+}
+
+li {
+    font-size: 15px;
+}
+
+div#menu>ul{
+	list-style-type: none;
+	list-style-position:outside;
+	margin:0; 
+	padding:0;
+	line-height: 20px;
+}
+
+div#menu>ul img {
+    vertical-align:middle;
+    padding:3px;
+}
+
+div#menu>ul li {
+    font-family: FreeSans, Luciana;
+    list-style-type: none;
+    background-repeat: no-repeat;
+    background-position: 0% 65%;
+    padding-left: 25px;
+    background-image: url(../IMG/arrow-right-alt.png);
+}
+
+div#menu>ul a {
+    color: white;
+}
+
+div#menu>ul li#participant{
+    background-image: url(../IMG/participant.png);        
+}
+
+div#menu>ul li#inscription{
+    background-image: url(../IMG/checklist.png);        
+}
+
+div#menu>ul li#valid{
+    background-image: url(../IMG/puce_verte.png);        
+}
+
+div#menu>ul li#cancel{
+    background-image: url(../IMG/puce_rouge.png);        
+}
+
+div#menu>ul li#wait{
+    background-image: url(../IMG/puce_orange.png);        
+}
+
+div#menu>ul li#stats{
+    background-image: url(../IMG/stats.png);        
+}
+
+div#menu>ul li#gestion{
+    background-image: url(../IMG/engrenage.png);        
+}
+
+div#menu>ul li#export_csv{
+    background-image: url(../IMG/csv-icon.png);        
+}
+
+div#menu>ul li#formules{
+    background-image: url(../IMG/list.png);        
+}
+	
+
+div#formules_cache{
+    margin-left: 20em;
+    margin-top: -5em;
+}
+
+ul#infos li {
+
+    background: url(../IMG/question_mark.png) no-repeat 0 5px;
+	margin: 0;
+	padding: 0 0 0 10px;
+
+}
+#contenu table {
+margin: auto;
+border: medium solid #6495ed;
+border-collapse: collapse;
+width: 90%;
+}
+
+#contenu th {
+font-family: monospace;
+border: thin solid #6495ed;
+padding: 5px;
+background-color: #D0E3FA;
+}
+
+td.td_outils_contenu a{
+	margin:0px 3px 0px 0px;
+}
+
+#contenu td {
+font-family: sans-serif;
+border: thin solid #6495ed;
+padding: 5px;
+text-align: center;
+background-color: #ffffff;
+}
+
+caption {
+font-family: sans-serif;
+}  
+
+tr.tDnD_whileDrag td{
+	color: grey;
+}
+
+
+

@@ -1,0 +1,90 @@
+Version 1.10
+=============
+jquery 1.6.4 -> 1.8.2
+fpdf 1.6 -> 1.7
+ajout du champ 'pays' pour l'édition
+
+Version 1.03
+=============
+-connectdb() sorti de init()
+
+Version 1.02
+=============
+- insertion de la signature "Laure Ferdjani" dans les pdf
+
+Version 1.01
+=============
+- ajout du mail administratif
+Version 1.0
+=============
+- nettoyage du code
+- bouton home sur chaque page
+- possibilité de changer les formules d'inscriptions
+
+Version 0.9.7
+=============
+- passage à l'UTF8, decodage en iso pour l'export pdf
+
+Version 0.9.6
+=============
+- exports pdf : gestion genre et nombre relatifs aux noms des formations (stage -> masculin singulier, rencontres -> feminin pluriel)
+- enregistrement des mofifications dans edit.php sans validation (jquery.ajax)
+- nouvelle version de Jquery
+
+Version 0.8.2beta
+=============
+- changement en cours dans edit
+
+Version 0.8.2
+=============
+- affichage de plusieurs choix de formules
+
+Version 0.8.1
+=============
+- changement des valeurs pour la liste des civilités. Nouvelle liste adaptée au icarnet.
+
+Version 0.8
+=============
+- classement des participants en liste d'attente // JQuery / Ajax
+
+Version 0.7.2 
+=============
+- classement des participants en liste d'attente (non fonctionnel) // fonctions php
+
+Version 0.7.1 
+=============
+- ajouter des formations // action=gestion
+
+Version 0.7 
+============
+- stripslashes pour export pdf
+- liste d'attente triée par ordre chronologique
+- taille de caractères (export_pdf.xml)
+
+Version 0.6 
+=============
+- infos statistique en page d'accueil
+
+Version 0.5.3
+=============
+- amélioration du script actions/edit.php
+
+Version 0.5.2
+=============
+- affichage titre de la formation
+- liste des formations actives et inactives sur la première page
+- informations sur le nombre d'inscrits dans les listes de sélections des formations
+
+Version 0.5.1
+=============
+- modification de la fonction redirige()
+- ajout des informations 'hebergement' dans l'export pdf
+
+Version 0.5
+===========
+- export pdf
+- édition des informations
+- ajout header et footer
+- versioning
+- ajout de constantes dans config.inc.php
+- ajout de variables dans les fichiers .ini pour les actions

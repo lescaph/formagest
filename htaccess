@@ -1,0 +1,6 @@
+AddDefaultCharset UTF-8
+AuthName "Veuillez vous identifier"
+AuthType Basic
+AuthUserFile "/home/www/ocim.fr/outils/formations/inscriptions/.htpasswd"
+Require valid-user
+
