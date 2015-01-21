@@ -4,8 +4,8 @@ define("FORMAGEST_VERSION", "1.10");
 // Connexion à la bdd en local
 
 define("DBHOST", "localhost");
-define("DBUSER", "root");
-define("DBPASSWORD", "an79oine");
+define("DBUSER", "");
+define("DBPASSWORD", "");
 define("DBNAME", "preinscriptions");
 
 // chemins d'accès
